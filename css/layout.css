@@ -34,13 +34,8 @@
   width: 66%;
 }
 
-.col-3 {
-
-}
-
 [class*='col-'] {
   margin-left: 2%;
-  display: table-cell;
 }
 
 .first {
@@ -48,8 +43,8 @@
 }
 
 .table {
-  display: table;
-  width: 100%;
+  clear: both;
+
 }
 
 section {
